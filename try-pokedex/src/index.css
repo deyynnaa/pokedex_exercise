@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Raleway:wght@800&family=Roboto:ital,wght@1,500&display=swap");
+@import url("https://db.onlinewebfonts.com/c/30422f1590e397e5b1d07511b924d5b7?family=Pocket+Monk");
+
+body {
+  margin: 0;
+  background-image: url("../public/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text {
+  border: 1px solid black;
+  background: rgb(51, 78, 94);
+  background-color: bisque;
+  padding: 0;
+  margin: 1px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.text1 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.winnertext {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.winnertext1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.Title {
+  text-align: center;
+}
+
+.Pokedex {
+  display: flex;
+  justify-content: center;
+}
+
+.column1 {
+  flex: 1;
+  padding-right: 5%;
+  padding-left: 8%;
+  padding-bottom: 4%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  justify-content: center;
+}
+
+.column2 {
+  flex: 1;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  align-items: center;
+}
+
+.Pokercard {
+  border: 4px solid black;
+  background: rgb(51, 78, 94);
+  background-image: url("../public/front.jpg");
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.movebutton {
+  padding-top: 100px;
+}
+
+.container {
+  display: flex;
+}
+
+.playerContainer1 {
+  padding-top: 0;
+  padding-left: 2.5%;
+  text-align: center;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.playerContainer2 {
+  padding-top: 0;
+  padding-right: 2.5%;
+  text-align: center;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.test,
+.test2 {
+  border: 3px solid black;
+  background-color: rgba(231, 221, 221, 0.381);
+  margin: 10px;
+  margin-left: 180px;
+  width: 1000px;
+  text-align: center;
+}
+
+.wintext {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 130%;
+}
